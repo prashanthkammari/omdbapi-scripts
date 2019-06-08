@@ -20,7 +20,7 @@ $ docker build -t omdbapi .
 
 # Running the docker container by passing MOVIE environment variable
 # Note: You can pass any movie name in 'single'/"double" quotes
-$ docker -it -e MOVIE='avengers' omdbapi
+$ docker run -it -e MOVIE='avengers' omdbapi
 
 
 # Sample Output looks like below 
